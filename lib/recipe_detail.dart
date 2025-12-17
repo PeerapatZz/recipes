@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:receipes/Model/recipe.dart';
+import 'package:google_fonts/google_fonts.dart';
+
 
 class RecipeDetail extends StatelessWidget {
   final Recipe recipe;
@@ -17,10 +19,9 @@ class RecipeDetail extends StatelessWidget {
             const SizedBox(height: 14.0),
             Text(
               recipe.imgLabel,
-              style: const TextStyle(
+              style: GoogleFonts.kodchasan(
                 fontSize: 20.0,
                 fontWeight: FontWeight.w700,
-                fontFamily: 'Palatino',
               ),
             ),
             const SizedBox(height: 14.0),

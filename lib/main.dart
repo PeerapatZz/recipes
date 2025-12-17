@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:receipes/Model/recipe.dart';
 import 'package:receipes/recipe_detail.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(const RecipeApp());
@@ -69,10 +70,9 @@ class _MyHomePageState extends State<MyHomePage> {
             const SizedBox(height: 14.0),
             Text(
               recipe.imgLabel,
-              style: const TextStyle(
+              style: GoogleFonts.kodchasan(
                 fontSize: 20.0,
                 fontWeight: FontWeight.w500,
-                fontFamily: 'Palatino',
               ),
             ),
           ],
